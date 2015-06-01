@@ -1,0 +1,13 @@
+image: daocloud/ci-ruby:1.9.3
+
+env:
+  -myenv = "hello"
+
+install:
+  -echo $myenv
+
+before_script:
+  -echo $myenv
+
+script:
+  -go test ruby_test
