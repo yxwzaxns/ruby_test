@@ -12,4 +12,4 @@ before_script:
 script:
   - apt-get update
   - apt-get install ruby
-  - which ruby
+  - ruby hello.rb
