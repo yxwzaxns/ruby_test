@@ -10,4 +10,6 @@ before_script:
   - echo $myenv
 
 script:
-  - whereis ruby
+  - apt-get update
+  - apt-get install ruby
+  - which ruby
