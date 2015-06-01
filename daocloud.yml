@@ -10,4 +10,4 @@ before_script:
   - echo $myenv
 
 script:
-  - ruby ruby_test
+  - ls
